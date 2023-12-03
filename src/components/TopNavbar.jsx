@@ -22,7 +22,7 @@ const TopNavbar = ({ routes }) => {
     };
 
     return (
-        <Navbar fixed="top" collapseonSelect expand="lg" className="bg-body-tertiary shadow">
+        <Navbar fixed="top" collapseonselect expand="lg" className="bg-body-tertiary shadow">
             <Container>
                 <Navbar.Brand style={{ cursor: "pointer" }} onClick={() => navigate("/")}>
                     <div className="d-flex align-items-center">
